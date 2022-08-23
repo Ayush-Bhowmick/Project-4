@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Oswald&display=swap");
+
+* {
+  margin: 6px;
+  padding: 0px;
+}
+body {
+  background-color: whitesmoke;
+}
+.navbar-container {
+  display: flex;
+}
+.logo {
+  width: 105px;
+}
+.grow-list {
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+  color: slategray;
+}
+.list-item:hover {
+  color: black;
+  font-size: larger;
+}
+.button-group {
+  float: right;
+  margin-left: 400px;
+}
+.nav-button {
+  float: right;
+  background-color: slateblue;
+  color: whitesmoke;
+  padding: 6px 22px;
+  text-align: center;
+  border-color: slateblue;
+  border-radius: 10px;
+  line-height: 28px;
+}
+.CU {
+  line-height: 22px;
+  top-margin: 40px;
+}
+.btn {
+  float: right;
+  position: relative;
+  top: 100px;
+  margin-right: 200px;
+}
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+}
+.heading-text {
+  font-family: oswald, Noto Sans;
+  font-size: 78px;
+  width: 500px;
+  text-align: center;
+  line-height: 84px;
+}
+.img {
+  top-margin: 40px;
+  height: 500px;
+}
+.description {
+  margin: 18px 0 0 0;
+  width: 320px;
+  text-align: center;
+  font-family: Noto;
+  line-height: normal;
+  word-wrap: break-word;
+  margin-left: 110px;
+  margin-top: 30px;
+}
